@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chalk-board/static/css/main.c0de5805.css",
+    "main.js": "/chalk-board/static/js/main.eb5ab66f.js",
+    "static/js/787.96c38a48.chunk.js": "/chalk-board/static/js/787.96c38a48.chunk.js",
+    "static/media/logo.svg": "/chalk-board/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/chalk-board/index.html",
+    "main.c0de5805.css.map": "/chalk-board/static/css/main.c0de5805.css.map",
+    "main.eb5ab66f.js.map": "/chalk-board/static/js/main.eb5ab66f.js.map",
+    "787.96c38a48.chunk.js.map": "/chalk-board/static/js/787.96c38a48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0de5805.css",
+    "static/js/main.eb5ab66f.js"
+  ]
+}
