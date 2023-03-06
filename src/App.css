@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .App-logo {
@@ -22,6 +28,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {

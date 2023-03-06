@@ -5,9 +5,93 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: cursive;
+ 
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+input,
+textarea{
+  resize: none;
+}
+.user-input{
+  width: 80%;
+  height: 2rem;
+}
+.user-input >*{
+  height: 100%;
+
+}
+.type-in{
+  width: 80%;
+  border: .1rem solid rgb(114, 176, 241);
+  border-radius: .3rem;
+  margin-right: .5rem;
+}
+.board{
+  height: 10rem;
+  width: 90%;
+  position: relative;
+  margin: 2rem auto;
+}
+.upper-board{
+  background-color: green;
+  height: 100%;
+  border-radius: .5rem;
+  display: flex;
+  align-items: center;
+}
+.lower-board{
+  background-color: brown;
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+}
+.display-text{
+  width: 100%;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  user-select: none;
+  text-align: center;
+}
+.display-text:focus{
+  border: none;
+  user-select: none;
+}
+.note-list{
+  padding: 5rem;
+  width: 60%;
+  height: auto;
+  text-align: left;
+  font-family: cursive;
+  font-size: 3rem;
+  border: .1rem solid rgb(125, 122, 122);
+  border-radius: .5rem;
+}
+.saved-note{
+  border-bottom: .3rem solid black;
+  border-radius: .2rem;
+  position: relative;
+}
+.delete-note{
+  font-family:'Times New Roman';
+  font-size: 1.5rem;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  padding:.001rem .5rem;
+  border-radius: .5rem;
+}
+.delete-note:hover{
+  color: white;
+  background-color: rgb(222, 50, 50);
+  text-align: justify;
+  cursor: pointer;
+}
+
